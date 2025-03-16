@@ -6,7 +6,7 @@ This is a basic Express JS project.  I used it as a learning excercise to demo f
 npm run devStart
 ```
 
-## Endpoints
+## Endpoints (Localhost links dont seem to render correctly)
 [Welcome](localhost:3000/)  
 [Serve File](localhost:3000/exampleFileDownload)  
 [Serve index.html](localhost:3000/helloworld)  
