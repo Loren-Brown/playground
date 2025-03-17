@@ -1,0 +1,16 @@
+.wrapper {
+    /* border: 5px solid #d7d7d7; */
+    /* border-radius: 50%; */
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.wrapper img {
+    max-height: 200px;
+    margin: 0 -100%;
+    max-width: none;
+    width: auto;
+}
