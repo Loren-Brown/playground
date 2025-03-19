@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 3001
 
 app.get('/', (req, res) => {
     res.send("Welcome to Loren's test express app!")
@@ -24,7 +24,7 @@ app.get('/exampleFileDownload', (req, res) => {
 })
 
 // Import and init example router
-const exampleRouter = require('exampleFileDownload')
+const exampleRouter = require('./routes/example.js')
 app.use('/example', exampleRouter)
 
 // Set port and listen.  Should be last
